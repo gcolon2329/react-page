@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import Container from "react-bootstrap/Container";
 import NavBar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
@@ -23,7 +23,7 @@ class App extends React.Component {
       ],
       home: {
         title: "Designer & Developer",
-        subtitle: "Your one stop shop",
+        subTitle: "Your one stop shop",
         text: "Check out some of my work below"
       },
       about: {
@@ -63,7 +63,7 @@ class App extends React.Component {
             render={() => (
               <HomePage
                 title={this.state.home.title}
-                subtitle={this.state.home.subtitle}
+                subTitle={this.state.home.subTitle}
                 text={this.state.home.text}
               />
             )}
