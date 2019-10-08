@@ -3,9 +3,9 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 
 import Card from "../components/Card";
-import wmLogo from "../assets/img/whole-milk-black-logofill.gif";
-import hechoEn from "../assets/img/hecho-en.png";
-import ramenShop from "../assets/img/ramens-shop.png";
+import wmLogo from "../assets/img/wm-business.png";
+import hechoEn from "../assets/img/hecho-en-2.png";
+import ramenShop from "../assets/img/ramens-shop-2.png";
 
 class Carosuel extends React.Component {
   constructor(props) {
